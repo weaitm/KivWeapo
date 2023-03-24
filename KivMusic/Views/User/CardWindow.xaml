@@ -1,0 +1,159 @@
+﻿<Page x:Class="KivMusic.Views.User.CardWindow"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KivMusic.Views.User"
+      xmlns:sys="clr-namespace:System;assembly=mscorlib"
+      mc:Ignorable="d" 
+      d:DesignHeight="650" d:DesignWidth="900"
+      Title="CardWindow">
+
+    <Grid Background="Green">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="13*"/>
+            <ColumnDefinition Width="37*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="366*"/>
+            <RowDefinition Height="85*"/>
+        </Grid.RowDefinitions>
+
+        <DataGrid Grid.Row="0" 
+                  Grid.Column="1" 
+                  Margin="5,5,5,5"
+                  Name="dtProfileCards"
+                  CanUserResizeColumns="False"
+                  CanUserResizeRows="False"
+                  CanUserAddRows="False"
+                  CanUserDeleteRows="False"
+                  CanUserSortColumns="False"
+                  CanUserReorderColumns="False"
+                  SelectionMode="Single"
+                  ItemsSource="{Binding profileCards}"
+                  AutoGenerateColumns="False"
+                  SelectionChanged="dtProfileCards_SelectionChanged"
+                  >
+            <DataGrid.Columns>
+                <DataGridTextColumn 
+                    Header="id"
+                    Binding="{Binding id}"
+                    IsReadOnly="True"
+                    MaxWidth="0"
+                    />
+                <DataGridTextColumn 
+                    Header="Номер карты"
+                    Binding="{Binding cardnumber}"
+                    IsReadOnly="True"
+                    Width="*"
+                    >
+                    <DataGridTextColumn.ElementStyle>
+                        <Style>
+                            <Setter Property="TextBlock.TextWrapping" Value="Wrap"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn 
+                    Header="Держатель"
+                    Binding="{Binding cardholder}"
+                    IsReadOnly="True"
+                    Width="*"
+                    />
+                <DataGridTextColumn 
+                    Header="Дата"
+                    Binding="{Binding cardexpiry}"
+                    IsReadOnly="True"
+                    Width="*"
+                    />
+                <DataGridTextColumn 
+                    Header="CVC/CVV"
+                    Binding="{Binding cvc}"
+                    IsReadOnly="True"
+                    Width="*"
+                    />
+                <DataGridTextColumn 
+                    Header="Платежная система"
+                    Binding="{Binding paymentsystemname}"
+                    IsReadOnly="True"
+                    Width="*"
+                    />
+                <DataGridTextColumn 
+                    Header="paymentsystemid"
+                    Binding="{Binding paymentsystemid}"
+                    IsReadOnly="True"
+                    MaxWidth="0"
+                    />
+                <DataGridTextColumn 
+                    Header="Банк"
+                    Binding="{Binding bankname}"
+                    IsReadOnly="True"
+                    Width="*"
+                    />
+                <DataGridTextColumn 
+                    Header="bankid"
+                    Binding="{Binding bankid}"
+                    IsReadOnly="True"
+                    MaxWidth="0"
+                    />
+                <DataGridTextColumn 
+                    Header="Тип карты"
+                    Binding="{Binding typecardname}"
+                    IsReadOnly="True"
+                    Width="*"
+                    />
+                <DataGridTextColumn 
+                    Header="typecardid"
+                    Binding="{Binding typecardid}"
+                    IsReadOnly="True"
+                    MaxWidth="0"
+                    />
+                <DataGridTextColumn 
+                    Header="cardid"
+                    Binding="{Binding cardid}"
+                    IsReadOnly="True"
+                    MaxWidth="0"
+                    />
+                <DataGridTextColumn 
+                    Header="profileid"
+                    Binding="{Binding profileid}"
+                    IsReadOnly="True"
+                    MaxWidth="0"
+                    />
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Orientation="Vertical" Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" >
+            <Label Content="Номер карты" Margin="5"/>
+            <TextBox Name="txtCardNumber" Margin="5" MaxLength="19"/>
+            <Label Content="Держатель карты" Margin="5"/>
+            <TextBox Name="txtCardHolder" Margin="5"/>
+            <Label Content="Дата окончания" Margin="5"/>
+            <DatePicker Name="dpDateExpire" Margin="5" DisplayDate="{x:Static sys:DateTime.Today}"/>
+            <Label Content="CVC/CVV" Margin="5"/>
+            <TextBox Name="txtCVC" Margin="5" MaxLength="3"/>
+            <Label Content="Платежная система" Margin="5"/>
+            <ComboBox Name="cmbPaymentSystem" 
+                      Margin="5"
+                      ItemsSource="{Binding paymentSystems}"
+                      SelectedValuePath="id"
+                      DisplayMemberPath="namesystem"/>
+            <Label Content="Банк" Margin="5"/>
+            <ComboBox Name="cmbBank" 
+                      Margin="5"
+                      ItemsSource="{Binding banks}"
+                      SelectedValuePath="id"
+                      DisplayMemberPath="bankname"/>
+            <Label Content="Тип карты" Margin="5"/>
+            <ComboBox Name="cmbTypeCard" 
+                      Margin="5"
+                      ItemsSource="{Binding typeCards}"
+                      SelectedValuePath="id"
+                      DisplayMemberPath="typename"/>
+            <Button Name="btnAdd" Content="Добавить" Margin="5" Click="btnAdd_Click"/>
+            <Button Name="btnDel" Content="Удалить" Margin="5" Click="btnDel_Click"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical" Grid.Row="1" Grid.Column="0" VerticalAlignment="Bottom">
+            <Button Name="btnBack" Content="Назад" Margin="5" Click="btnBack_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>

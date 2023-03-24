@@ -1,0 +1,103 @@
+﻿<Page x:Class="KivMusic.Views.Seller.SellerWindow"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KivMusic.Views.Seller"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="SellerWindow" Loaded="Page_Loaded" >
+
+    <Grid Background="Green">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="13*"/>
+            <ColumnDefinition Width="37*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="366*"/>
+            <RowDefinition Height="85*"/>
+        </Grid.RowDefinitions>
+
+        <DataGrid Grid.Row="0" 
+                  Grid.Column="1" 
+                  Margin="5,5,5,5"
+                  Name="dtProductChar"
+                  CanUserResizeColumns="False"
+                  CanUserResizeRows="False"
+                  CanUserAddRows="False"
+                  CanUserDeleteRows="False"
+                  CanUserSortColumns="False"
+                  CanUserReorderColumns="False"
+                  SelectionMode="Single"
+                  ItemsSource="{Binding productChars}"
+                  AutoGenerateColumns="False"
+                  SelectionChanged="dtProductChar_SelectionChanged"
+                  >
+            <DataGrid.Columns>
+                <DataGridTextColumn 
+                    Header="id"
+                    Binding="{Binding id}"
+                    IsReadOnly="True"
+                    MaxWidth="0"
+                    />
+                <DataGridTextColumn 
+                    Header="Товар"
+                    Binding="{Binding product}"
+                    IsReadOnly="True"
+                    Width="*"
+                    />
+                <DataGridTextColumn 
+                    Header="productid"
+                    Binding="{Binding productid}"
+                    IsReadOnly="True"
+                    MaxWidth="0"
+                    />
+                <DataGridTextColumn 
+                    Header="Описание товара"
+                    Binding="{Binding characteristicz}"
+                    IsReadOnly="True"
+                    Width="*"
+                    >
+                    <DataGridTextColumn.ElementStyle>
+                        <Style>
+                            <Setter Property="TextBlock.TextWrapping" Value="Wrap"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn 
+                    Header="characteristiczid"
+                    Binding="{Binding characteristiczid}"
+                    IsReadOnly="True"
+                    MaxWidth="0"
+                    />
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Orientation="Vertical" Grid.Row="0" Grid.Column="0" >
+            <Label Content="Товар" Margin="5"/>
+            <ComboBox Name="cmbProduct" 
+                      Margin="5"
+                      ItemsSource="{Binding products}"
+                      SelectedValuePath="id"
+                      DisplayMemberPath="productname"/>
+            <Label Content="Описание товара" Margin="5"/>
+            <ComboBox Name="cmbCharacteristicz" 
+                      Margin="5"
+                      ItemsSource="{Binding characteristics}"
+                      SelectedValuePath="id"
+                      DisplayMemberPath="characteristicsname"/>
+            <Button Name="btnAdd" Content="Добавить" Margin="5" Click="btnAdd_Click"/>
+            <Button Name="btnUpd" Content="Изменить" Margin="5" Click="btnUpd_Click"/>
+            <Button Name="btnDel" Content="Удалить" Margin="5" Click="btnDel_Click"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical" Grid.Row="1" Grid.Column="0" VerticalAlignment="Bottom">
+            <Button Name="btnChartWin" Content="Посмотреть график продаж" Margin="5" Click="btnChartWin_Click" />
+            <Button Name="btnLogOut" Content="Выйти" Margin="5" Click="btnLogOut_Click"/>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" Grid.Row="1" Grid.Column="1" VerticalAlignment="Bottom">
+            <Button Name="btnProductWin" Content="Добавить товар" Margin="5" Click="btnProductWin_Click"/>
+            <Button Name="btnCharacteristiczWin" Content="Добавить описание товара" Margin="5" Click="btnCharacteristiczWin_Click"/>
+            <Button Name="btnShopWin" Content="Добавить магазин" Margin="5" Click="btnShopWin_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>

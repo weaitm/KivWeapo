@@ -1,0 +1,49 @@
+﻿<Page x:Class="KivMusic.Views.Seller.ChartWindow"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KivMusic.Views.Seller"
+      xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ChartWindow">
+
+    <Grid Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <lvc:CartesianChart Series="{Binding SeriesCollection}" 
+                            LegendLocation="Left"
+                            Margin="5,5,5,50"
+                            Grid.ColumnSpan="3"
+                            Grid.RowSpan="3"
+                            >
+            <lvc:CartesianChart.AxisX>
+                <lvc:Axis Title="Покупатель" 
+                          Labels="{Binding Labels}"></lvc:Axis>
+            </lvc:CartesianChart.AxisX>
+            <lvc:CartesianChart.AxisY>
+                <lvc:Axis Title="Сумма чека" 
+                          LabelFormatter="{Binding Formatter}"></lvc:Axis>
+            </lvc:CartesianChart.AxisY>
+        </lvc:CartesianChart>
+
+        <StackPanel Orientation="Vertical"
+                    VerticalAlignment="Bottom" 
+                    Grid.Row="2" 
+                    Grid.Column="0">
+            <Button Name="btnBack" Content="Назад" Margin="5" Click="btnBack_Click"/>
+        </StackPanel>
+        
+        
+    </Grid>
+</Page>

@@ -1,0 +1,120 @@
+﻿<Page x:Class="KivMusic.Views.Hr.SickWindow"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KivMusic.Views.Hr"
+      xmlns:sys="clr-namespace:System;assembly=mscorlib"
+      mc:Ignorable="d" 
+      d:DesignHeight="451" d:DesignWidth="800"
+      Title="SickWindow">
+
+    <Grid Background="Green">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="13*"/>
+            <ColumnDefinition Width="37*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="366*"/>
+            <RowDefinition Height="85*"/>
+        </Grid.RowDefinitions>
+
+        <DataGrid Grid.Row="0" 
+                  Grid.Column="1" 
+                  Margin="5,5,5,5"
+                  Name="dtSicks"
+                  CanUserResizeColumns="False"
+                  CanUserResizeRows="False"
+                  CanUserAddRows="False"
+                  CanUserDeleteRows="False"
+                  CanUserSortColumns="False"
+                  CanUserReorderColumns="False"
+                  SelectionMode="Single"
+                  ItemsSource="{Binding sicks}"
+                  AutoGenerateColumns="False"
+                  SelectionChanged="dtSicks_SelectionChanged"
+                  >
+            <DataGrid.Columns>
+                <DataGridTextColumn 
+                    Header="id"
+                    Binding="{Binding id}"
+                    IsReadOnly="True"
+                    MaxWidth="0"
+                    />
+                <DataGridTextColumn 
+                    Header="Дата начала"
+                    Binding="{Binding startdate}"
+                    IsReadOnly="True"
+                    Width="*"
+                    />
+                <DataGridTextColumn 
+                    Header="Дата конца"
+                    Binding="{Binding enddate}"
+                    IsReadOnly="True"
+                    Width="*"
+                    />
+                <DataGridTextColumn 
+                    Header="ФИО работника"
+                    Binding="{Binding employeeFIO}"
+                    IsReadOnly="True"
+                    Width="*"
+                    />
+                <DataGridTextColumn 
+                    Header="employeeid"
+                    Binding="{Binding employeeid}"
+                    IsReadOnly="True"
+                    MaxWidth="0"
+                    />
+                <DataGridTextColumn 
+                    Header="ФИО кадровика"
+                    Binding="{Binding hrmanagerFIO}"
+                    IsReadOnly="True"
+                    Width="*"
+                    />
+                <DataGridTextColumn 
+                    Header="hrmanagerid"
+                    Binding="{Binding hrmanagerid}"
+                    IsReadOnly="True"
+                    MaxWidth="0"
+                    />
+                <DataGridTextColumn 
+                    Header="Тип больничного"
+                    Binding="{Binding sicktypename}"
+                    IsReadOnly="True"
+                    Width="*"
+                    />
+                <DataGridTextColumn 
+                    Header="sicktypeid"
+                    Binding="{Binding sicktypeid}"
+                    IsReadOnly="True"
+                    MaxWidth="0"
+                    />
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Orientation="Vertical" Grid.Row="0" Grid.Column="0" >
+            <Label Content="Дата начала больничного" Margin="5"/>
+            <DatePicker Name="dpStart" Margin="5" DisplayDate="{x:Static sys:DateTime.Today}" />
+            <Label Content="Дата конца больничного" Margin="5" />
+            <DatePicker Name="dpEnd" Margin="5" DisplayDate="{x:Static sys:DateTime.Today}"/>
+            <Label Content="Работник" Margin="5"/>
+            <ComboBox Name="cmbEmployee" 
+                      Margin="5"
+                      ItemsSource="{Binding employees}"
+                      SelectedValuePath="id"
+                      DisplayMemberPath="fullname"/>
+            <Label Content="Тип больничного" Margin="5"/>
+            <ComboBox Name="cmbSickType" 
+                      Margin="5"
+                      ItemsSource="{Binding sickTypes}"
+                      SelectedValuePath="id"
+                      DisplayMemberPath="typename"/>
+            <Button Name="btnAdd" Content="Добавить" Margin="5" Click="btnAdd_Click"/>
+            <Button Name="btnUpd" Content="Изменить" Margin="5" Click="btnUpd_Click"/>
+            <Button Name="btnDel" Content="Удалить" Margin="5" Click="btnDel_Click"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical" Grid.Row="1" Grid.Column="0" VerticalAlignment="Bottom">
+            <Button Name="btnBack" Content="Назад" Margin="5" Click="btnBack_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>

@@ -1,0 +1,737 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="KivMusic.Models.Bank">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Models\Bank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KivMusic.Models.Card">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAoCAAAABAAAAAAAAIAAAgQAgA=</HashCode>
+      <FileName>Models\Card.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KivMusic.Models.Characteristicz">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAgA=</HashCode>
+      <FileName>Models\Characteristicz.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KivMusic.Models.ConsumerCart">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAEIAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Models\ConsumerCart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KivMusic.Models.Delivery">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAEEAACAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Models\Delivery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KivMusic.Models.LocationWarehouse">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAEEAACAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Models\LocationWarehouse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KivMusic.Models.PaymentSystem">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Models\PaymentSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KivMusic.Models.PayType">
+    <Position X="5.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Models\PayType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KivMusic.Models.Product">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgABAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Models\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KivMusic.Models.ProductCharacteristicz">
+    <Position X="7.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Models\ProductCharacteristicz.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KivMusic.Models.ProductCheck">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAFEgCAAAAQABAAAAAAAAAAgA=</HashCode>
+      <FileName>Models\ProductCheck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KivMusic.Models.ProductHistory">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAACAAAAABAAAAAQAAgA=</HashCode>
+      <FileName>Models\ProductHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KivMusic.Models.ProductType">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Models\ProductType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KivMusic.Models.ProfileCard">
+    <Position X="4" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAACAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Models\ProfileCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KivMusic.Models.Providery">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Models\Providery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KivMusic.Models.Role">
+    <Position X="4" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Role.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KivMusic.Models.Salary">
+    <Position X="5.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIACAAAAAAAAAAAAABAAIAAAAgAgA=</HashCode>
+      <FileName>Models\Salary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KivMusic.Models.Shop">
+    <Position X="9.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Models\Shop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KivMusic.Models.SickLeav">
+    <Position X="2.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAQAAAAEAgAAAAAAAAAAIAAAAAAgA=</HashCode>
+      <FileName>Models\SickLeav.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KivMusic.Models.SickType">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Models\SickType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KivMusic.Models.TypeCard">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Models\TypeCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KivMusic.Models.Vacation">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAIAAAAAAAAAAAEAAAAAAIAAAAAIAAAAAAgA=</HashCode>
+      <FileName>Models\Vacation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KivMusic.Models.VacationType">
+    <Position X="9.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Models\VacationType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KivMusic.Models.Warehouse">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAACAAAAAAAAAAAgA=</HashCode>
+      <FileName>Models\Warehouse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KivMusic.Profile">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAACAhAAAAAAAAQAAAAAAEAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Models\Profile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KivMusic.Views.Admin.AddUserWindow" BaseTypeListCollapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="KivMusic.Views.Admin.AddUserWindow.Profiles" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Admin\AddUserWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="KivMusic.Views.Admin.AddUserWindow.Roles" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Admin\AddUserWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAgBEAQACAAACAAICAIABAAAIAIIAAAQAAAAAgII=</HashCode>
+      <FileName>Views\Admin\AddUserWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KivMusic.Views.Admin.BankWindow" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="KivMusic.Views.Admin.BankWindow.Banks" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Admin\BankWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAMIAAAAIAIAAAAAAAAAAgII=</HashCode>
+      <FileName>Views\Admin\BankWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KivMusic.Views.Admin.PaymentSystemWindow" BaseTypeListCollapsed="true">
+    <Position X="23.25" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="KivMusic.Views.Admin.PaymentSystemWindow.PaymentSystems" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Admin\PaymentSystemWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAiAAAAAAAAAAAAAAAIAAAAAIAKAAAAAAAAAAgII=</HashCode>
+      <FileName>Views\Admin\PaymentSystemWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KivMusic.Views.Admin.ProductHistoryWin" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="9.25" Width="1.5" />
+    <NestedTypes>
+      <Class Name="KivMusic.Views.Admin.ProductHistoryWin.ProductHistories" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Admin\ProductHistoryWin.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAIAAAAAIBIAAAAAAAAAAAIA=</HashCode>
+      <FileName>Views\Admin\ProductHistoryWin.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KivMusic.Views.Admin.TypeCardWindow" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="8.75" Width="1.5" />
+    <NestedTypes>
+      <Class Name="KivMusic.Views.Admin.TypeCardWindow.TypeCards" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Admin\TypeCardWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAABAAAAAAAAIAIAAAAAIAIAAAAAAAAAAgII=</HashCode>
+      <FileName>Views\Admin\TypeCardWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KivMusic.Views.Hr.HrWindow" BaseTypeListCollapsed="true">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="KivMusic.Views.Hr.HrWindow.VacationTypes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Hr\HrWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="KivMusic.Views.Hr.HrWindow.SickTypes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Hr\HrWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAgACAQgCAIAAAAAAAIAAgBAAAoAIgIBAAAAAAIAAE=</HashCode>
+      <FileName>Views\Hr\HrWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KivMusic.Views.Hr.SickWindow" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="KivMusic.Views.Hr.SickWindow.Sicks" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Hr\SickWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="KivMusic.Views.Hr.SickWindow.Employees" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Hr\SickWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="KivMusic.Views.Hr.SickWindow.SickTypes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Hr\SickWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAgABAAAgAAEAAAAIAIABAAAIAIAABAAAAAAAgIM=</HashCode>
+      <FileName>Views\Hr\SickWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KivMusic.Views.Hr.VacationWindow" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="4" Width="1.5" />
+    <NestedTypes>
+      <Class Name="KivMusic.Views.Hr.VacationWindow.Vacations" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Hr\VacationWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="KivMusic.Views.Hr.VacationWindow.Employees" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Hr\VacationWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="KivMusic.Views.Hr.VacationWindow.VacationTypes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Hr\VacationWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAIAgAAAAAgAAAAAAgIAIgBAAAIAMAAAAAAAAAAgII=</HashCode>
+      <FileName>Views\Hr\VacationWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KivMusic.Views.Keeper.KeeperWindow" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="8.75" Width="1.5" />
+    <NestedTypes>
+      <Class Name="KivMusic.Views.Keeper.KeeperWindow.PayTypes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Keeper\KeeperWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAABAgAAwAAAAAAAAAAAAAABAAAIAKAAAAAAAAAAgII=</HashCode>
+      <FileName>Views\Keeper\KeeperWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KivMusic.Views.Keeper.SalaryWindow" BaseTypeListCollapsed="true">
+    <Position X="18" Y="9.75" Width="1.5" />
+    <NestedTypes>
+      <Class Name="KivMusic.Views.Keeper.SalaryWindow.Salaries" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Keeper\SalaryWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="KivMusic.Views.Keeper.SalaryWindow.Employees" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Keeper\SalaryWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="KivMusic.Views.Keeper.SalaryWindow.PayTypes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Keeper\SalaryWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAhAIQAAgAAAAAAAIAIABAAAIAIAAAAAAAAAAgII=</HashCode>
+      <FileName>Views\Keeper\SalaryWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KivMusic.Views.Provider.DeliveryWindow" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="4.25" Width="1.5" />
+    <NestedTypes>
+      <Class Name="KivMusic.Views.Provider.DeliveryWindow.Deliveries" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Provider\DeliveryWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="KivMusic.Views.Provider.DeliveryWindow.Warehouses" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Provider\DeliveryWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="KivMusic.Views.Provider.DeliveryWindow.Products" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Provider\DeliveryWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="KivMusic.Views.Provider.DeliveryWindow.Providers" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Provider\DeliveryWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABAgAgQAAAAAAEAAAAABAJABAAAIAIAAAAAABAIAgII=</HashCode>
+      <FileName>Views\Provider\DeliveryWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KivMusic.Views.Provider.ProviderWindow" BaseTypeListCollapsed="true">
+    <Position X="11" Y="9" Width="1.5" />
+    <NestedTypes>
+      <Class Name="KivMusic.Views.Provider.ProviderWindow.Providers" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Provider\ProviderWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AgAAAgQAgAAAAAAAAAAAAAABAAAIAKAAAAAAAAAAgII=</HashCode>
+      <FileName>Views\Provider\ProviderWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KivMusic.Views.Seller.CharacteristicsWindow" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="8.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="KivMusic.Views.Seller.CharacteristicsWindow.Characteristics" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Seller\CharacteristicsWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAIgAIAAIAIAAAAAAAAAAgII=</HashCode>
+      <FileName>Views\Seller\CharacteristicsWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KivMusic.Views.Seller.ChartWindow" BaseTypeListCollapsed="true">
+    <Position X="21.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="KivMusic.Views.Seller.ChartWindow.BillByProfile" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Seller\ChartWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AABAAAAAEAABAAAAAAAAAIAAAAEIAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Seller\ChartWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KivMusic.Views.Seller.ProductWindow" BaseTypeListCollapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="KivMusic.Views.Seller.ProductWindow.Products" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Seller\ProductWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="KivMusic.Views.Seller.ProductWindow.ProductTypes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Seller\ProductWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABAAAgAAAQAAAAAAEAAAAIAAAQAIAIAAAAAABAAAgII=</HashCode>
+      <FileName>Views\Seller\ProductWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KivMusic.Views.Seller.SellerWindow" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="7.25" Width="1.5" />
+    <NestedTypes>
+      <Class Name="KivMusic.Views.Seller.SellerWindow.ProductChars" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Seller\SellerWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="KivMusic.Views.Seller.SellerWindow.Products" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Seller\SellerWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="KivMusic.Views.Seller.SellerWindow.Characteristics" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Seller\SellerWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AACAAgAAggAAAIAAAAAAAAgBAQAIIIAAIAAABAIAgKI=</HashCode>
+      <FileName>Views\Seller\SellerWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KivMusic.Views.Seller.ShopWindow" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="8.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="KivMusic.Views.Seller.ShopWindow.Shops" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Seller\ShopWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAQAAAAAAAAAIAAAAAIAIAIAAAAAAAAgII=</HashCode>
+      <FileName>Views\Seller\ShopWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KivMusic.Views.Seller.TypeProductWindow" BaseTypeListCollapsed="true">
+    <Position X="21.5" Y="4" Width="1.5" />
+    <NestedTypes>
+      <Class Name="KivMusic.Views.Seller.TypeProductWindow.ProductsType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Seller\TypeProductWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAABAAAAAAIAAAAAIAIAAABAAAAAAgII=</HashCode>
+      <FileName>Views\Seller\TypeProductWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KivMusic.Views.Stockman.ApplyDeliveryWindow" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="KivMusic.Views.Stockman.ApplyDeliveryWindow.Deliveries" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Stockman\ApplyDeliveryWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAJIBAAAIAIAAAAAAAAAAAIA=</HashCode>
+      <FileName>Views\Stockman\ApplyDeliveryWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KivMusic.Views.Stockman.DeleteLocWarehouseWindow" BaseTypeListCollapsed="true">
+    <Position X="4" Y="8.75" Width="1.5" />
+    <NestedTypes>
+      <Class Name="KivMusic.Views.Stockman.DeleteLocWarehouseWindow.LocWarehouse" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Stockman\DeleteLocWarehouseWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAIAAAAAIAIAAAAAAAAAgAIA=</HashCode>
+      <FileName>Views\Stockman\DeleteLocWarehouseWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KivMusic.Views.Stockman.StockManWindow" BaseTypeListCollapsed="true">
+    <Position X="18" Y="5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="KivMusic.Views.Stockman.StockManWindow.Warehouses" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Stockman\StockManWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="KivMusic.Views.Stockman.StockManWindow.ProductAvals" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\Stockman\StockManWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABEAAhCAgAIAAAEAAAAAAAABAAAIAIAAAAAAAAAAgII=</HashCode>
+      <FileName>Views\Stockman\StockManWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KivMusic.Views.User.CardWindow" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="5.25" Width="1.5" />
+    <NestedTypes>
+      <Class Name="KivMusic.Views.User.CardWindow.ProfileCards" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\User\CardWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="KivMusic.Views.User.CardWindow.PaymentSystems" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\User\CardWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="KivMusic.Views.User.CardWindow.Banks" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\User\CardWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="KivMusic.Views.User.CardWindow.TypeCards" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\User\CardWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAACiAAAAAAAAAAAAIIAIJBAAAIAIAABAAAAAAAAII=</HashCode>
+      <FileName>Views\User\CardWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KivMusic.Views.User.CheckOutWindow" BaseTypeListCollapsed="true">
+    <Position X="21.5" Y="7.75" Width="1.5" />
+    <NestedTypes>
+      <Class Name="KivMusic.Views.User.CheckOutWindow.ConsumerCarts" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\User\CheckOutWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="KivMusic.Views.User.CheckOutWindow.Cards" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\User\CheckOutWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="KivMusic.Views.User.CheckOutWindow.Shops" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\User\CheckOutWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="KivMusic.Views.User.CheckOutWindow.ProductChecks" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\User\CheckOutWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAgBAAAAAAQAAAAAAgCAIABAAAIAIAgAAAAYAQAAAA=</HashCode>
+      <FileName>Views\User\CheckOutWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KivMusic.Views.User.MainBuyWindow" BaseTypeListCollapsed="true">
+    <Position X="19.75" Y="6" Width="1.5" />
+    <NestedTypes>
+      <Class Name="KivMusic.Views.User.MainBuyWindow.Products" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\User\MainBuyWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="KivMusic.Views.User.MainBuyWindow.ConsumerCarts" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\User\MainBuyWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="KivMusic.Views.User.MainBuyWindow.ProductTypes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\User\MainBuyWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABIABAAQgQkEIAAAAAACAAAJAAAIAIAQAAEABCgAAKA=</HashCode>
+      <FileName>Views\User\MainBuyWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KivMusic.Views.User.PaySuccess" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <NestedTypes>
+      <Class Name="KivMusic.Views.User.PaySuccess.ConsumerCarts" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\User\PaySuccess.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAgAAAAgAAAAABAAAAQABAAAQAAAAAAAA=</HashCode>
+      <FileName>Views\User\PaySuccess.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KivMusic.Views.User.UserSettings" BaseTypeListCollapsed="true">
+    <Position X="11" Y="5.75" Width="1.5" />
+    <NestedTypes>
+      <Class Name="KivMusic.Views.User.UserSettings.ProductChecks" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Views\User\UserSettings.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIABAAAIAIAgAAAAAAQAAAA=</HashCode>
+      <FileName>Views\User\UserSettings.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KivMusic.ConAPI">
+    <Position X="16.25" Y="10" Width="1.5" />
+    <NestedTypes>
+      <Class Name="KivMusic.ConAPI.ConnectionAPI" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ConAPI.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAABACAAAAAQAAAAAAACAAAAAAAACAAAIAAAAAAAAAA=</HashCode>
+      <FileName>ConAPI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KivMusic.ConnectionOptions">
+    <Position X="23.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAACAAAACAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConnectionOptions.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="KivMusic.Hash">
+    <Position X="23.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Hash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KivMusic.MainWindow">
+    <Position X="23.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="KivMusic.Sign_in">
+    <Position X="23.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAQAAAAAAAAACAAAAAAAACAAIAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sign_in.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="KivMusic.SignUp">
+    <Position X="25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAIAACAAIAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>SignUp.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
